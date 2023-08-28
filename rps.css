@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Creepster&family=Montserrat:ital@0;1&display=swap");
+@font-face {
+  font-family: sketch_3d;
+  src: url("./Sketch\ 3D.otf");
+}
+@font-face {
+  font-family: sketch_written;
+  src: url("./Sketch\ Written\ -\ demo.ttf");
+}
+* {
+  font-family: sketch_written;
+  margin: 0rem;
+}
+
+body {
+  color: rgb(0, 0, 0);
+  /* background-color: #DFDBE5; */
+  background-color: #212121;
+  background-image: url("data:image/svg+xml,%3Csvg width='64' height='64' viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 16c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zm33.414-6l5.95-5.95L45.95.636 40 6.586 34.05.636 32.636 2.05 38.586 8l-5.95 5.95 1.414 1.414L40 9.414l5.95 5.95 1.414-1.414L41.414 8zM40 48c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zM9.414 40l5.95-5.95-1.414-1.414L8 38.586l-5.95-5.95L.636 34.05 6.586 40l-5.95 5.95 1.414 1.414L8 41.414l5.95 5.95 1.414-1.414L9.414 40z' fill='%239C92AC' fill-opacity='0.2' fill-rule='evenodd'/%3E%3C/svg%3E");
+  padding: 1rem;
+  overflow: hidden;
+}
+#title {
+  font-family: sketch_3d;
+  margin: 1rem;
+  font-size: 4rem;
+  color: rgb(248, 123, 123);
+}
+
+h2 {
+  font-family: sketch_written;
+  color: aliceblue;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+
+.head1 {
+  font-family: sketch_written;
+  padding: 1rem;
+  display: flex;
+}
+
+#rock {
+  
+  margin: 0.1rem;
+  
+  color: rgb(198, 93, 93);
+  padding: 30px 64px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  justify-content: start;
+  gap: 0.5rem;
+  font-size: 80px;
+  border-radius: 65px;
+  transition: all;
+  transition-duration: 300ms;
+}
+
+#rock:hover {
+  box-shadow: 0.5rem;
+  transform: scale(1.04);
+  color: white;
+}
+
+#paper {
+  
+  margin: 0.1rem;
+  
+  color: rgb(198, 93, 93);
+  padding: 30px 64px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  gap: 1.5rem;
+  font-size: 80px;
+  border-radius: 65px;
+  transition: all;
+  transition-duration: 300ms;
+}
+
+#scissors {
+  
+  margin: 0.1rem;
+  
+  color: rgb(198, 93, 93);
+  padding: 30px 64px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1.5rem;
+  font-size: 80px;
+  border-radius: 65px;
+  transition: all;
+  transition-duration: 300ms;
+}
+#paper:hover {
+  box-shadow: 0.5rem;
+  transform: scale(1.04);
+  color: white;
+}
+#scissors:hover {
+  box-shadow: 0.5rem;
+  transform: scale(1.04);
+  color: white;
+}
+.division {
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.8rem;
+  text-align: center;
+}
+
+button{
+  border-style: double;
+  border-color: rebeccapurple;
+  border-width: 0.2rem;
+  background: transparent;
+}
